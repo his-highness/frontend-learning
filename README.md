@@ -1,2 +1,2 @@
 # frontend-learning
-Repository created to practice frontend skills. Using HTML, CSS, Bootstrap, Skeleton, Javascript, etc.
+Repository created to practice and improve my frontend skills. In this project I will be working with HTML, CSS, Bootstrap, Skeleton, Javascript, etc.
