@@ -1,0 +1,73 @@
+/* Mobile first queries */
+.header, .footer {
+	background-color:pink;
+	background-image:url('../../patterns/congruent_outline.png');
+	background-repeat:repeat;
+}
+
+.logo {
+	font-family:'PTSans';
+	color:#fff;
+	font-size:3em;
+	text-align:left;
+}
+
+.nav {
+	margin-top: 1.5em;
+	text-align:right;
+}
+
+.nav a.button {
+	color:#aaa;
+	border:1px solid #aaa;
+}
+
+.nav a.button:hover {
+	color:#fff;
+	border:1px solid #fff;
+}
+
+.nav a.button-primary {
+	color:#fff;
+	border:none;
+}
+
+div.main {
+	margin:4em 8em;
+	padding:2em 4em;
+}
+
+.main h1, .main h2 {
+	text-align:center;
+	color:#fff;
+	font-family:papyrus;
+	word-spacing:2.5px;
+}
+
+.main a.button {
+	display:block;
+}
+
+/* About Us */
+
+.info h2 {
+	margin-top:.5em;
+	text-align:center;
+	font-family:'PTSans';
+	font-size:4em;
+}
+
+.info h3 {
+	font-size:1.8em;
+}
+
+.info {
+	margin-bottom:1.5em;
+}
+
+/* The Footer section */
+.footer p {
+	color:#fff;
+	text-align:center;
+	padding-top:3%;
+}
