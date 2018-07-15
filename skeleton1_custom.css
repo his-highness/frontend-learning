@@ -1,0 +1,226 @@
+/* Mobile first queries */
+/* applies to ALL widths */
+.picture {
+	display:none;
+}
+
+
+/* The Top Section Styles */
+.header {
+	padding:37px 0 37px 0;
+	background-image:url(../../patterns/footer_lodyas.png);
+	background-size: cover;
+}
+
+.logo {
+	text-align:center;
+	color:rgb(234,234,235,1);
+	font-size:2.5rem;
+	font-weight:600;
+	position:fixed;
+	background-color:rgba(40,40,40,1);
+	top:0;
+	left:0;
+	right:0;
+	padding:3px;
+	z-index: 100;
+}
+
+.logo i {
+	margin-right:4px;
+}
+
+.nav {
+	text-align:center;
+	padding-top:35px;
+	font-size:1.5rem;
+}
+
+.nav .button:not(.button-primary) {
+	background-color:rgba(255,255,255,.6);
+}
+
+.nav .button {
+	width:48%;
+	margin:2px 0px;
+}
+
+.action {
+	text-align:center;
+	padding-top:42px;
+}
+
+.action h1 {
+	color:rgba(235,235,235,.8);
+	font-size:3.2rem;
+}
+
+.action .button {
+	background-color:rgba(255,255,255,.8);
+	margin-top:15px;
+	font-size:1rem;
+}
+
+/* The Info Section Styles */
+.info {
+	padding:52px 0 0px 0;
+	text-align:center;
+}
+
+.info h1 {
+	font-size:3.2rem;
+	line-height:.5;
+	font-weight:400;
+}
+
+.info .row {
+	margin-bottom:20px;
+}
+
+.info .row:last-of-type {
+	margin-bottom:0;
+}
+
+
+/* The About Us Styles */
+.about {
+	padding:15px 0 15px 0;
+	background-image:url(../../patterns/symphony.png);
+	text-align:center;
+}
+
+.about .columns {
+	margin-bottom:30px;
+}
+
+.about h1 {
+	text-align:center;
+	font-size:3rem;
+	font-weight:500;
+}
+
+.about blockquote {
+	text-align:center;
+	font-size:2.2rem;
+	line-height:1.2;
+	letter-spacing:-.5px;
+	word-spacing:1px;
+	font-weight:200;
+	font-style:italic;
+}
+
+.quote i {
+	font-size:1.8rem;
+	position:relative;
+	top:-8px;
+}
+
+.quote i.start {
+	left:-2px;
+}
+
+
+.quote i.end {
+	right:-5px;
+}
+
+.about .quote {
+	padding:15px 0 10px 0;
+}
+
+.about .button {
+	background-color:rgba(255,255,255,.4);
+}
+
+/* The Footer Styles */
+.footer {
+	padding:38px 0 8px 0;
+	background-image: url(../../patterns/dark_embroidery.png);
+	color:rgba(230,230,230,.9);
+	text-align:center;
+}
+
+.snackbar i {
+	font-size:2.6rem;
+	padding:2px 4px;
+	margin-bottom:15px;
+}
+
+.snackbar i:hover {
+	cursor:pointer;
+	background-color:rgba(0,0,0,.6);
+}
+
+.footer form {
+	margin-top:15px;	
+}
+
+.footer input[type="email"] {
+	color:#888;
+	letter-spacing:.5px;
+}
+
+.footer input[type="email"]:focus {
+	color:#555;
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width:550px) {
+	.nav .button {
+		width:auto;
+		margin:0;
+	}
+
+	.action h1 {
+		font-size:3.5rem;
+	}
+
+	.info h1 {
+		margin-top:4.2rem;
+	}
+
+	.footer .copyright {
+		margin-top:4.5rem;
+	}
+}
+
+/* Larger than tablet */
+/* applies to all widths 750px and greater */
+@media (min-width:750px) {
+	.header {
+		padding-top:15px;
+	}
+
+	.logo {
+		position:static;
+		background-color:transparent;
+		font-size:3rem;
+	}
+
+	.nav {
+		padding-top:5px;
+	}
+
+	.action {
+		padding-top:55px;
+	}
+
+	.action h1 {
+		font-size:4rem;
+	}
+
+	.info h1 {
+		margin-top:3rem;
+	}
+
+	.about h1 {
+		font-size:4rem;
+	}
+}
+
+@media (min-width:1000px) {
+	.info h1 {
+		margin-top:2rem;
+	}
+}
